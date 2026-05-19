@@ -12,7 +12,7 @@ function listItems(items) {
 }
 
 function renderProjectIndex(project) {
-  const leadImage = project.images[0];
+  const leadImage = project.indexImage || project.images[0];
 
   return html`
     <a class="index-card" href="#${project.id}">

@@ -19,6 +19,10 @@ const portfolioProjects = [
     proof:
       "Built visual consistency from labels and raw owner-supplied photos through storefront, social, and email touchpoints.",
     featured: true,
+    indexImage: {
+      src: "assets/body-mind/site-front-page1.jpg",
+      alt: "Body and Mind Beautiful storefront category, product detail page, and newsletter section using the product image system"
+    },
     images: [
       {
         src: "assets/body-mind/package2.jpg",
